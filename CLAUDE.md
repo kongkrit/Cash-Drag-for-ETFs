@@ -63,24 +63,9 @@ Vanguard Total World Stock ETF (VT) — Vanguard holdings export, as of 05/31/20
 - Net FX balances: $88.7M — dominated by CNH/CNY pair (~$1M net), USD ($40.3M), and 30+ other currencies
 - Gross cash drag (MMF + FX): 0.92%
 - Gross incl. sec-lending: 1.50%
-- Futures not disclosed in this CSV format (Vanguard uses futures for equitization per N-CSR filing)
+- Futures not disclosed in this CSV format (Vanguard uses futures for equitization)
 
 **Reader**: `src/readers/csv_reader.py`
-
----
-
-### VT-NCSR72.pdf
-Vanguard International Equity Index Funds N-CSR SEC filing, FY ended Oct 31, 2025.
-
-Contains 7 Vanguard funds: European Stock Index Fund, Pacific Stock Index Fund, Total World Stock Index Fund (VT), FTSE All-World ex-US (VEU), FTSE All-World ex-US Small-Cap (VSS), Global ex-U.S. Real Estate (VNQI), Emerging Markets (VWO).
-
-To extract text: `from pdfminer.high_level import extract_text`.
-
-VT from this report (Oct 31, 2025):
-- Net Assets: $73.54B
-- Cash (MMF): $599.7M (0.82%)
-- Futures notional: $476.9M (E-mini Russell 2000 + S&P 500 + MSCI EAFE + MSCI EM + TSX 60)
-- Gross cash drag: 0.82% | Net cash drag: 0.17%
 
 ---
 
@@ -122,7 +107,6 @@ Run: `python3 main.py`
 ## Dependencies
 
 - `openpyxl` — read xlsx (`pip install openpyxl`)
-- `pdfminer.six` — extract text from PDF (`pip install pdfminer.six`), only needed for PDF work
 
 ## Conventions
 

@@ -50,7 +50,7 @@ Source: `Holdings_details_Total_World_Stock_ETF.csv` (Vanguard holdings export)
 **Notes:**
 - Vanguard's own reported figure for MKTLIQ is **0.82%** of fund assets — the pure uninvested cash component. The calculated 0.92% adds the $88.7M net FX operational balances (settlement cash from global equity transactions).
 - The $559.3M SLBBH1142 position is securities-lending reinvestment collateral; it carries an offsetting liability and is excluded from the primary gross cash drag figure.
-- The CSV does not expose equity futures. Vanguard does use index futures for cash equitization (documented in the N-CSR annual report), so true net cash drag is lower than the gross figure shown.
+- The CSV does not expose equity futures. Vanguard does use index futures for cash equitization, so true net cash drag is lower than the gross figure shown.
 - The large CNH (+$257M) / CNY (−$256M) pair nearly cancels; net contribution to FX cash is ~$1M.
 
 ---
@@ -61,7 +61,6 @@ Source: `Holdings_details_Total_World_Stock_ETF.csv` (Vanguard holdings export)
 |---|---|---|---|---|
 | `holdings-daily-emea-en-spsa-gy.xlsx` | SPDR MSCI ACWI IMI UCITS ETF (SPSA GY) | 17 Jun 2026 | SSGA daily holdings | [ssga.com — SPSA GY product page](https://www.ssga.com/se/en_gb/intermediary/etfs/state-street-spdr-msci-all-country-world-investable-market-ucits-etf-dist-spsa-gy) → "Daily Holdings" download |
 | `Holdings_details_Total_World_Stock_ETF.csv` | Vanguard Total World Stock ETF (VT) | 31 May 2026 | Vanguard holdings export | [advisors.vanguard.com — VT product page](https://advisors.vanguard.com/investments/products/vt/vanguard-total-world-stock-etf#overview) → Portfolio tab → "Export full holdings" |
-| `VT-NCSR72.pdf` | Vanguard International Equity Index Funds | FY Oct 2025 | SEC N-CSR annual report | SEC EDGAR — N-CSR filing for Vanguard International Equity Index Funds |
 
 ### How to refresh data
 
